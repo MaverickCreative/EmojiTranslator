@@ -1,0 +1,47 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body {
+  background: linear-gradient(to right, #c33764, #1d2671);
+  color: white;
+  font-family: "Lato", sans-serif;
+}
+
+.emoji-list {
+  width: 50%;
+  font-size: 2rem;
+  margin: 0 auto;
+}
+
+.fa-heart {
+  color: red;
+}
+
+@media (max-width: 600px) {
+  .emoji-list {
+    width: 90%;
+  }
+}
+
+input {
+  width: 35%;
+  height: 2rem;
+  border-radius: 12px;
+  font-size: 2rem;
+  height: 3rem;
+  text-align: center;
+  outline: blue;
+  padding: 1rem 0rem;
+}
+
+.emojiMeaning {
+  font-size: 1.6rem;
+}
+
+@media (max-width: 600px) {
+  input {
+    width: 80%;
+  }
+}
